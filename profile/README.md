@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Soorma AI</h1>
+<h1>soorma.ai</h1>
 <h3>The Open Source Foundation for AI Agents</h3>
 <p><b>Battle-tested. Self-hostable. Enterprise-grade.</b></p>
 <br />
@@ -33,4 +33,4 @@ While we prepare the codebase for public release:
 
 - **Follow this Organization**: Click the "Follow" button on the top right to be notified when we push the first public repo.
 
-<div align="center"><sub>© 2025 Soorma AI. Built for the brave.</sub></div>
+<div align="center"><sub>© 2025 soorma.ai. Built for the brave.</sub></div>
