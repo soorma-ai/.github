@@ -4,6 +4,7 @@
 <p><b>Battle-tested. Self-hostable. Enterprise-grade.</b></p>
 <br />
 <a href="https://www.soorma.ai"><img src="https://img.shields.io/badge/Status-Pre--Launch-amber?style=for-the-badge" alt="Status" /></a>
+<a href="https://www.soorma.ai"><img src="https://img.shields.io/badge/Waitlist-Open-050505?style=for-the-badge&logo=rocket" alt="Waitlist" /></a>
 <br /><br />
 </div>
 
@@ -31,6 +32,7 @@ We are currently in Pre-Launch. The core platform is being built in private to e
 
 While we prepare the codebase for public release:
 
+- **Join the Waitlist**: [www.soorma.ai](https://www.soorma.ai)
 - **Follow this Organization**: Click the "Follow" button on the top right to be notified when we push the first public repo.
 
 <div align="center"><sub>© 2025 soorma.ai. Built for the brave.</sub></div>
