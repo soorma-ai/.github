@@ -1,38 +1,53 @@
 <div align="center">
 <h1>soorma.ai</h1>
-<h3>The Open Source Foundation for AI Agents</h3>
-<p><b>Battle-tested. Self-hostable. Enterprise-grade.</b></p>
-<br />
-<a href="https://www.soorma.ai"><img src="https://img.shields.io/badge/Status-Pre--Launch-amber?style=for-the-badge" alt="Status" /></a>
-<a href="https://www.soorma.ai"><img src="https://img.shields.io/badge/Waitlist-Open-050505?style=for-the-badge&logo=rocket" alt="Waitlist" /></a>
-<br /><br />
+<h3>Governed infrastructure for enterprise AI agents</h3>
 </div>
 
-### 🛡️ Mission
+### Mission
 
-Soorma (meaning "Warrior" or "Brave") is being built to solve the fragmentation in the AI Agent ecosystem. We are building the control plane for the next generation of agentic applications.
+Soorma — *warrior*, *brave* — is a platform on which developers across
+organizations build their own agentic systems.
 
-We believe the future of AI infrastructure must be:
+The hard problem in production agentic systems is not prompting. It is governing
+what a fleet of autonomous agents is permitted to do, and being able to say
+afterwards who did what, under whose authority, and on whose behalf. Identity,
+authority, and a complete audit record are foundations of the architecture here
+rather than features added later.
 
-- **Open Source**: The core runtime will always be MIT licensed.
-- **Self-Hostable**: You should own your data and your agent's reasoning logs.
-- **Model Agnostic**: Orchestrate agents across OpenAI, Anthropic, Mistral, or local Llama instances.
+### Status — rebuilding
 
-### 🚧 Roadmap Status
+The v0.x implementation is **retired**. It was built to explore a
+distributed-cognition architecture and did that successfully, but it was not
+built to be an enterprise platform: it grew without specifications, and it
+predates the governance architecture the platform now targets. Refactoring it
+toward an architecture it was never shaped for would have cost more than starting
+again.
 
-We are currently in Pre-Launch. The core platform is being built in private to ensure a stable, type-safe, and secure initial release.
+Nothing is released yet. Design precedes code, and the work happens in the open.
 
-| Phase | Status | Description |
+### Repositories
+
+| Repository | What it is | Licence |
 | :--- | :--- | :--- |
-| Phase 0 | 🟡 Active | Core Architecture, Identity, Memory, and Agent SDK. |
-| Phase 1 | ⚪ Planned | Public Release of soorma-core. |
-| Phase 2 | ⚪ Planned | Managed Cloud Beta & Enterprise Connectors. |
+| [**soorma-core**](https://github.com/soorma-ai/soorma-core) | The server-side substrate — the shared planes agents run against, and where enforcement lives | FSL-1.1-ALv2 |
+| [**soorma-sdk**](https://github.com/soorma-ai/soorma-sdk) | The client harness SDKs an agent embeds, in every language they ship in | Apache 2.0 |
+| [**soorma-core-legacy**](https://github.com/soorma-ai/soorma-core-legacy) | The retired v0.x implementation, archived and read-only | MIT |
 
-### 📡 How to Follow
+`soorma-core` is **source-available, not open source**. You may do anything with
+it except offer a commercial product or service that competes with soorma.ai —
+internal use at any scale, research, and education are all permitted. Every
+release converts to Apache 2.0 two years after it ships, automatically and
+irrevocably. That is the self-hosting guarantee: if soorma.ai ceases to exist,
+everything older than two years is already Apache 2.0 and the rest converts on
+schedule.
 
-While we prepare the codebase for public release:
+The harness is Apache 2.0 permanently. It runs client-side in the agent's hot
+path and enforces nothing, so a use restriction there would reach into tenant
+systems while defending nothing.
 
-- **Join the Waitlist**: [www.soorma.ai](https://www.soorma.ai)
-- **Follow this Organization**: Click the "Follow" button on the top right to be notified when we push the first public repo.
+### Follow along
 
-<div align="center"><sub>© 2025 soorma.ai. Built for the brave.</sub></div>
+- [soorma.ai](https://www.soorma.ai)
+- Watch [soorma-core](https://github.com/soorma-ai/soorma-core) to see the substrate take shape
+
+<div align="center"><sub>© 2026 soorma.ai</sub></div>
